@@ -1,0 +1,109 @@
+
+<div class="container-fluid">
+  <div class="row align-items-center custom-header-style py-2">
+    <!-- use col 8 take space in header  -->
+    <div class="col-sm-8">
+      <!-- title -->
+      <div class="d-flex align-items-center">
+        <span class="text-white"><strong style="color: black;">test2demo</strong></span>
+      </div>
+    </div>
+    
+    <div class="col-sm-4">
+      <div class="d-flex justify-content-end">
+        <!-- dropdown -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            InActive
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+<!-- link to authentication -->
+<!-- unlike other links added routerlink to div so img icon itself helps to navigate -->
+        <div class="ms-3">
+          <div 
+          class="d-flex align-items-center"
+          routerLink="/auth">
+            <img src="assets/lock.png" alt="Lock Icon" class="me-2" >
+            
+
+          </div>
+        </div>
+<!-- link to arrow icon -->
+        <div class="ms-3">
+          <div class="d-flex align-items-center" routerLink="/new">
+            <img src="assets/arrow.png" alt="Arrow Icon" class="me-2" >
+            <a class="nav-link text-white" ></a>
+          </div>
+        </div>
+<!-- link to  menu -->
+        <div class="ms-3">
+          <div class="d-flex align-items-center" routerLink="/new">
+            <img src="assets/menu.png" alt="Menu Icon" class="me-2" >
+            <a class="nav-link text-white" ></a>
+          </div>
+        </div>
+<!-- button for < icon -->
+<!-- navigating programatically using click method -->
+        <div class="ms-3">
+          <div class="d-flex align-items-center">
+            <button 
+            class="btn btn-light"
+            (click)="onClick()">&lt;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row align-items-center custom-header-style py-2">
+    <div class="col">
+      <div class="d-flex align-items-center">
+        <span class="text-white"><p style="color: black;">ID: LA-29668</p></span>
+        <span class="text-white"><p style="color: black; margin-left: 15px;">Publishing Agreement</p></span>
+        <span class="text-white"><p style="color: black; margin-left: 15px;">3 Jun 2024</p></span>
+        <span class="text-white"><p style="color: black; margin-left: 15px;">20 Jun 2024</p></span>
+      </div>
+    </div>
+    <!-- used alto to make them move to right -->
+    <div class="col-auto">
+      <div class="d-flex align-items-center justify-content-end">
+        <button class="btn">DS-14 ADD</button>
+        <button class="btn">DS-14 ADD</button>
+        <button class="btn">DS-14 ADD</button>
+        <button class="btns">+ ADD TAG</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!-- empty div which render a color -->
+<div class="empty"></div>
+
+<div class="container-fluids">
+  <div class="row align-items-center custom-header-style py-2">
+    <div class="col">
+      <div class="d-flex align-items-center">
+        <button class="btnss">General</button>
+        <button class="btnss">Contracting Parties</button>
+        <button class="btnss">Royalty Percentage</button>
+        <button class="btnss">Advances</button>
+        <button class="btnss">Options</button>
+        <button class="btnss">Restrictions</button>
+        <button class="btnss">Socities</button>
+        <button class="btnss">Contacts</button>
+        <button class="btnss">Notes</button>
+        <button class="btnss">Linked</button>
+      </div>
+    </div>
+  </div>
+</div>

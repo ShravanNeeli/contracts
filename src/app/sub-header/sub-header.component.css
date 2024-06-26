@@ -1,0 +1,59 @@
+.container-fluid {
+    background-color: rgb(250, 247, 247);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+}
+
+.header img {
+    width: auto;
+    max-height: 100%;
+}
+
+.btn.btn-light{
+    border: none;
+    background-color: brown;
+  border-radius: 50px; 
+}
+.btn.btn-light:hover {
+    background-color: aqua;
+}
+
+
+#dropdownMenuButton{
+    background-color: rgb(229, 127, 127);
+}
+
+#dropdownMenuButton:hover{
+    background-color: rgb(86, 172, 225);
+}
+
+.me-2{
+    max-height: 30px;
+}
+
+.btn{
+    margin-left: 10px;
+    background-color: rgb(231, 85, 85);
+}
+.btns{
+    margin-left: 10px;
+    color: rgb(231, 85, 85);
+    border: none;
+}
+
+.empty{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(154, 141, 141);
+}
+
+.container-fluids{
+    margin: 20px;
+    background-color: azure;
+}
+.btnss{
+    margin-left: 25px;
+    border-style: none;
+    background-color: rgb(243, 243, 237);
+}

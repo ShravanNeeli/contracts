@@ -1,0 +1,39 @@
+<div class="app-login">
+    <!-- used terinary operator to inter login signup -->
+    <h2>{{isLoginMode?'Login Here':'Signup Here'}}</h2>
+    <!-- template form -->
+        <form #form="ngForm" (ngSubmit)="onFormSubmited(form)">
+    <div class="form-input">
+        <!-- ngmodel helps input to act as contoler -->
+        <label>Email Address</label>
+        <input
+         type="email"
+         name="email"
+         email
+         required
+         ngModel
+         >
+    </div>
+    <div class="form-input">
+        <label>Password</label>
+        <input
+         type="password"
+         name="password"
+         required
+         maxlength="8"
+         ngModel
+         >
+    </div>
+    <button
+    type="submit"
+    [disabled]="form.invalid"
+    > {{isLoginMode?'Login':'Signup'}}</button>
+    <p>
+        {{isLoginMode?'Do not have account':'Already had a account'}}
+        <button 
+        type="button"
+        (click)="onSwitchMode()">{{isLoginMode?'Register Here':'Login Here'}}</button>
+    </p>
+    
+</form>
+</div>
